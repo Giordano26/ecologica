@@ -1,1 +1,2 @@
-# To Do readme
+# Install and Run
+npm install && npm start
