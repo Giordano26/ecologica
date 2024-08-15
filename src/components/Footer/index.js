@@ -5,7 +5,7 @@ function Footer() {
   return (
     <FooterBase>
       <p>
-      Raul Martins
+      Raul Martins | Catarina Omori | Maria Eduarda | Manuela Mastrangelo
       </p>
       <p>
         Oficina Multidisciplinar (Itinerário Formativo) 
