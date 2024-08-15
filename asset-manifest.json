@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ecologica/static/css/main.89590a36.css",
+    "main.js": "/ecologica/static/js/main.1171d465.js",
+    "static/media/land_image.png": "/ecologica/static/media/land_image.d46754605d8f347c3120.png",
+    "static/media/logo.png": "/ecologica/static/media/logo.2c5c350445094d8b0a00.png",
+    "index.html": "/ecologica/index.html",
+    "main.89590a36.css.map": "/ecologica/static/css/main.89590a36.css.map",
+    "main.1171d465.js.map": "/ecologica/static/js/main.1171d465.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89590a36.css",
+    "static/js/main.1171d465.js"
+  ]
+}
