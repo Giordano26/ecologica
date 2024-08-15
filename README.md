@@ -1,3 +1,2 @@
 # Install and Run
-npm install
-npm start
+npm install && npm start
