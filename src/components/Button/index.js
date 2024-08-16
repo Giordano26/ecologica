@@ -26,6 +26,7 @@ const Button = styled.button`
         position: fixed;
         right: 0;
         outline: 0;
+        height: 8vh;
         text-align: center;
     }
 `;

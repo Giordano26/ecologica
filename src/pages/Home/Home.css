@@ -1,40 +1,64 @@
-#page-landing{
+#page-landing {
     width: 100vw;
     height: 90vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column; 
     background-color: var(--backEnd);
+    text-align: center; 
 }
 
-#logo-container{
-    height: 10rem;
+#logo-container {
+    height: auto;
+    width: 100%; 
+    margin-bottom: 2rem;
+    padding: 0 2rem; 
 }
 
-#logo-container{
-    text-align: center;
-    align-items: center;
-    margin-bottom: 3.2rem;
-    width: 45%;
-}
-#logo-container h2{
-    justify-content: center;
+#logo-container h2 {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 4.6rem;
     margin-top: 0.8rem;
-    white-space: normal;
     word-wrap: break-word;
 }
 
-.eco-image{
-    width: 25%;
+.eco-image {
+    width: 50%;
+    max-width: 300px; 
+    margin-top: 20px; 
 }
 
-#button-container{
+#button-container {
     display: flex;
     justify-content: center;
+    margin-top: 20px; 
+}
 
+@media (max-width: 800px) {
+    #logo-container h2 {
+        font-size: 1.8rem; /* Diminui o tamanho da fonte no mobile */
+        line-height: 3rem;
+        width: 90vw; /* Ajusta a largura do contêiner de texto */
+    }
+    #page-landing {
+        flex-direction: column; /* Muda para coluna no mobile */
+        align-items: center; /* Alinha itens ao centro */
+    }
+
+    #logo-container {
+        width: 90%; /* Ajusta a largura do contêiner no mobile */
+        margin-right: 0; /* Remove a margem direita */
+        padding: 0; 
+    }
+
+    .eco-image {
+        width: 70%; /* Ajusta a largura da imagem no mobile */
+        margin-top: 20px; /* Adiciona a margem superior */
+    }
+
+    #button-container {
+        margin-top: 20px; /* Ajusta a margem superior dos botões */
+    }
 }
