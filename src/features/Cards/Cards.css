@@ -34,3 +34,17 @@
     word-wrap: break-word;
     color: var(--white);
 }
+
+@media (max-width: 800px) {
+
+    .flash-card{
+
+        width: 200px;
+    }
+    .flash-card-content {
+        width: 200px;
+    }
+    
+
+  }
+  

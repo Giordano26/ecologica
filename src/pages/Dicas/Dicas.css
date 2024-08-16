@@ -23,4 +23,14 @@
     font-weight: bold;
     color: #fff;
   }
+
+  @media (max-width: 800px) {
+
+    #page-landing{
+      height: 100vh;
+  
+
+  }
+
+  }
   
